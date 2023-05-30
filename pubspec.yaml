@@ -1,0 +1,50 @@
+name: flutter_riverpod_practice1
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  hooks_riverpod: ^2.3.6
+  uuid: ^3.0.7
+  firebase_core: ^2.13.0
+  cloud_firestore: ^4.7.1
+  firebase_storage: ^11.2.1
+  firebase_auth: ^4.6.1
+  font_awesome_flutter: ^10.4.0
+  google_sign_in: ^6.1.2
+  image_picker: ^0.8.7+5
+  image: ^4.0.17
+  flutter_hooks: ^0.18.6
+  collection: ^1.17.1
+  intl: ^0.18.1
+  video_thumbnail: ^0.5.3
+  video_player: ^2.6.1
+  lottie: ^2.3.2
+  share_plus: ^7.0.1
+  riverpod_annotation: ^2.1.1
+  url_launcher: ^6.1.11
+  build_runner: ^2.4.4
+  riverpod_generator: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/animations/empty.json
+    - assets/animations/loading.json
+    - assets/animations/data_not_found.json
+    - assets/animations/error.json
+    - assets/animations/small_error.json
