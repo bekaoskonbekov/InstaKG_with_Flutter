@@ -30,7 +30,7 @@ class LoadingScreen {
   LoadingScreenController? showOverlay(
       {required BuildContext context, required String text}) {
     final state = Overlay.of(context);
-    if (state == null) {
+    if (state == false) {
       return null;
     }
     final textController = StreamController<String>();

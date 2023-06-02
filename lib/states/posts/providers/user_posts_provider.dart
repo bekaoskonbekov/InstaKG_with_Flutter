@@ -6,8 +6,8 @@ import 'package:flutter_riverpod_practice1/states/constants/firebase_field_name.
 import 'package:flutter_riverpod_practice1/states/posts/models/post_key.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../auth/providers/user_id_provider.dart';
-import '../posts/models/post.dart';
+import '../../auth/providers/user_id_provider.dart';
+import '../models/post.dart';
 
 final userPostsProvider = StreamProvider.autoDispose<Iterable<Post>>((ref) {
   final userId = ref.watch(userIdProvider);
